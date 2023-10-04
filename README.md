@@ -9,7 +9,9 @@ When SQL executes a query, it follows a specific order of operations.
 This order is important for optimizing queries, especially large and complex ones. Here’s the typical order of operations in an SQL query:
 
 FROM clause: This is the first clause that is processed. It defines the table that the query will use.
+
 ON clause: This clause is used in JOIN operations to specify the condition for the join.
+
 OUTER clause: This clause is used in OUTER JOIN operations.
 WHERE clause: This clause filters the records based on a condition.
 GROUP BY clause: This clause groups records with identical data in specified columns into aggregated data, like sum, average, or count.
