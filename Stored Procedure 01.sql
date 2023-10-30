@@ -8,7 +8,7 @@
 /* Syntax to create a procedure
 "create or replace procedure" is used to create procedure and 
 if there will be any other procedure with the same name then
-it will replace the previuos procedure*/
+it will replace the previuos procedure. the default DELIMITER IN SQL is ; but in stored procedure there are more sql query that ends with ; and to avoid this we use DELIMITER $$ ...... $$*/
 create or replace procedure procedure_name(p_name varchar, p_age int)
 language plpgsql
 as $$
