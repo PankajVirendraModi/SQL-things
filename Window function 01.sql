@@ -60,6 +60,15 @@ select e.*, min(salary) over (partition by dept_name) as min_salary from employe
 
 
 -- row_number(), rank(), dense_rank() -- no argument needed
+/*
+ROW_NUMBER():
+It generates a unique row number for each row.
+In SQL, ROW_NUMBER() window function is used to assign a unique row number to each record in a result set, regardless of whether the table contains duplicate records.
+DENSE_RANK():
+It generates a unique rank for each distinct row within a result set but unlike row_number it doesn't leave gaps when duplicate records occur.
+RANK():
+It is also used to assign unique rank for each distinct row within a result set but it leaves the gap in ranking when multiple records are assigned the same rank.
+*/
 
 select e.* ,
 row_number() over(partition by dept_name) as rn
