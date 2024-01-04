@@ -1,3 +1,6 @@
+Q. Write a SQL query to calculate the running total of revenue date-wise and product-wise.
+
+
 set search_path to shakra;
 
 create table orders(
