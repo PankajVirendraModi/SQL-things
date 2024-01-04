@@ -1,7 +1,7 @@
 Q. Write a SQL query to calculate the running total of revenue date-wise and product-wise.
 
 
-set search_path to shakra;
+set search_path to shakra; -- for using particular schema in postgresql
 
 create table orders(
 	order_Date date,
