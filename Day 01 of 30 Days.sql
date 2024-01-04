@@ -1,3 +1,6 @@
+Q. What will be the output of following SQL query
+"select count(*) as rows_cnt from A left/right/inner/outer join B on A.id = B.id;"
+
 create schema shakra;
 
 set search_path to shakra;
