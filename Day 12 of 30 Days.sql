@@ -1,6 +1,8 @@
 Q.1. write a SQL query to find the top 2 departments with the highest average employee salaries,
 but only include departments with more than 2 employees.
+Q.2. Distinct vs Group By
 
+    
 -- Create the Departments table
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY,
@@ -47,6 +49,13 @@ SELECT departmentid, departmentname, avg_salary
 FROM AvgSalaries
 ORDER BY avg_salary DESC
 LIMIT 2;
+
+Explaination of the above Code:
+    1. The AvgSalaries common table expression (CTE) joins the departments and employees tables based on common column 'departmentid'.
+    2. then it calculates the average salary for each department.
+    3. The HAVING clause filters out departments with fewer than 3 employees (i.e., only those with more than 2 employees are considered).
+    4. Finally, the main query selects the top 2 departments with the highest average salaries from the AvgSalaries CTE
+        and orders them in descending order based on the average salary.
 
 Q.2. Distinct vs Group By
 Distinct: It removes the duplicate rows and returns the unique rows based on specified column(s)
