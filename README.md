@@ -34,5 +34,3 @@ NOTE:- this is the logical order of operations, not necessarily the physical exe
 The actual physical execution of an SQL statement is determined by the database’s query processor and can vary in different DBMS. 
 
 Also, aliases created in the SELECT list cannot be used by earlier steps.
-
-![day12](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/3710df61-2481-496c-9d2e-500538913b07)
