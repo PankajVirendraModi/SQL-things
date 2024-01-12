@@ -12,17 +12,17 @@ INSERT INTO employee_performance (employee_id, performance_rating, department, t
 
 VALUES(112, 57, 'Engineering', 2),
 
-(122, 56, 'Engineering', 4),
+      (122, 56, 'Engineering', 4),
 
-(132, 96, 'Engineering', 3),
+      (132, 96, 'Engineering', 3),
 
-(142, 92, 'Engineering', 4),
+      (142, 92, 'Engineering', 4),
 
-(115, 81, 'Sales', 4),
+      (115, 81, 'Sales', 4),
 
-(116, 79, 'Sales', 3),
+      (116, 79, 'Sales', 3),
 
-(117, 68, 'Sales', 2),
+      (117, 68, 'Sales', 2),
 
 -- partitioning the department into 5 buckets as I have to get the top 20%(1:5) within their department according to performance rating
 --
