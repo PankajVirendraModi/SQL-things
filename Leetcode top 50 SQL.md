@@ -40,3 +40,14 @@ select *,
 ntile(5) over(partition by department order by performance_rating desc) as five_buskets
 from employee_performance) as x
 where tenure>=2 and x.five_buskets=1;
+
+```
+i
+j
+k
+k
+j
+h
+f
+f
+```
