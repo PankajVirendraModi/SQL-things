@@ -9,10 +9,10 @@ SELECT * FROM employee_performance;
 --
 -- I just added few more records, for better understanding the query and output. As I am going to use NTILE window function
 INSERT INTO employee_performance (employee_id, performance_rating, department, tenure)
-VALUES(112, 57, 'Engineering', 2),
+! VALUES(112, 57, 'Engineering', 2),
 (122, 56, 'Engineering', 4),
 (132, 96, 'Engineering', 3),
-(142, 92, 'Engineering', 4),
+! (142, 92, 'Engineering', 4),
 (115, 81, 'Sales', 4),
 (116, 79, 'Sales', 3),
 (117, 68, 'Sales', 2),
