@@ -18,11 +18,13 @@ VALUES(112, 57, 'Engineering', 2),
 (117, 68, 'Sales', 2),
 
 -- partitioning the department into 5 buckets as I have to get the top 20%(1:5) within their department according to performance rating
+--
 select *,
 ntile(5) over(partition by department order by performance_rating desc) as five_buskets
 from employee_performance ep
 where tenure>=2; 
 
+-
 -- performance rating in the top 20% within their department
 select * from(
 select *,
