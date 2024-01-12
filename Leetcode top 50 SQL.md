@@ -10,7 +10,7 @@ SELECT * FROM employee_performance;
 -- I just added few more records, for better understanding the query and output. As I am going to use NTILE window function
 INSERT INTO employee_performance (employee_id, performance_rating, department, tenure)
 
-VALUES(112, 57, 'Engineering', 2),
+      VALUES(112, 57, 'Engineering', 2),
 
       (122, 56, 'Engineering', 4),
 
