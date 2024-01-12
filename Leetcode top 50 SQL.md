@@ -3,7 +3,7 @@
 ![day12](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/3710df61-2481-496c-9d2e-500538913b07)
 
 
-SELECT * FROM PRODUCTS;
+SELECT * FROM PRODUCTS;	
 SELECT * FROM employee_performance;
 
 -- I just added few more records, for better understanding the query and output. As I am going to use NTILE window function
