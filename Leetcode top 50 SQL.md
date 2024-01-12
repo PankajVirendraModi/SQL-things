@@ -24,18 +24,17 @@ INSERT INTO employee_performance (employee_id, performance_rating, department, t
 
       (117, 68, 'Sales', 2),
 
--- partitioning the department into 5 buckets as I have to get the top 20%(1:5) within their department according to performance rating
---
-select *,
+- partitioning the department into 5 buckets as I have to get the top 20%(1:5) within their department according to performance rating
 
-ntile(5) over(partition by department order by performance_rating desc) as five_buskets
+      select *,
 
-from employee_performance ep
+      ntile(5) over(partition by department order by performance_rating desc) as five_buskets
 
-where tenure>=2; 
+      from employee_performance ep
 
--
--- performance rating in the top 20% within their department
+      where tenure>=2; 
+
+performance rating in the top 20% within their department
 select * from(
 select *,
 ntile(5) over(partition by department order by performance_rating desc) as five_buskets
