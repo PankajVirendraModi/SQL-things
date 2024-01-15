@@ -10,5 +10,14 @@ hello
 > [!hello]
 > jdfkjh
 
->[!note]
+>[!memo]
+>ljbdfjkdf
+
+>[!Bulb]
+>ljbdfjkdf
+
+>[!heavy_check_mark]
+>ljbdfjkdf
+
+>[!information_source]
 >ljbdfjkdf
