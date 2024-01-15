@@ -1,5 +1,4 @@
-set search_path to shakra;
-
+`Table Creation`
 ```sql
 CREATE TABLE LeaveRecord (
   employee_id int not null,
@@ -7,6 +6,7 @@ CREATE TABLE LeaveRecord (
   leave_type varchar(20)
 );
 ```
+`Inserting values in table LeaveRecord`
 ```sql
 INSERT INTO LeaveRecord (employee_id, leave_date, leave_type)
 VALUES (1, '2022-01-10', 'Sick'),
@@ -48,4 +48,5 @@ The final result is ordered by employee_id in ascending order.
 
 ![image](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/709135cc-71a0-4b72-adfc-a837bfb193f3)
 
+> **CASE STATEMENT**
 > The CASE statement in SQL is often used for conditional logic and can be thought of as similar to the if...else construct in other programming languages. It allows you to perform different actions based on specified conditions within a SQL query.
