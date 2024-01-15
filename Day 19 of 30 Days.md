@@ -16,9 +16,7 @@ VALUES (1, '2022-01-10', 'Sick'),
        (2, '2022-01-13', 'Sick'),
        (2, '2022-01-14', 'Vacation');
 ```
-```sql   
-SELECT * FROM LeaveRecord;
-```
+
 
 1. Write an SQL query to find the most common leave type for each employee.
 In case of a tie, return all tied leave types. The result should be ordered by employee_id.
