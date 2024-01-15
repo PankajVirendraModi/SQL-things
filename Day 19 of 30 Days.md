@@ -46,5 +46,5 @@ The final result is ordered by employee_id in ascending order.
 
 ![image](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/709135cc-71a0-4b72-adfc-a837bfb193f3)
 
-> **CASE STATEMENT**
+> **CASE STATEMENT:**
 > The CASE statement in SQL is often used for conditional logic and can be thought of as similar to the if...else construct in other programming languages. It allows you to perform different actions based on specified conditions within a SQL query.
