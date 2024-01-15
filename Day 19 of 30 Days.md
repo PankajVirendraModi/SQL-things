@@ -18,11 +18,11 @@ VALUES (1, '2022-01-10', 'Sick'),
 ```	   
 SELECT * FROM LeaveRecord;
 
-/*
+
 Q.1. Write an SQL query to find the most common leave type for each employee.
 In case of a tie, return all tied leave types. The result should be ordered by employee_id.
 Q.2. Why do we use CASE statement in SQL?
-*/
+
 
 ```sql
 SELECT employee_id, leave_type
@@ -44,7 +44,7 @@ Used the RANK() window function to assign a rank to each leave type for each emp
 Selecting the employee_id and leave_type columns from the result of the inner query.
 The WHERE RNK=1 condition ensures that only the most common leave type(s) for each employee are selected.
 The final result is ordered by employee_id in ascending order.
-*/
+
 
 ![image](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/709135cc-71a0-4b72-adfc-a837bfb193f3)
 
