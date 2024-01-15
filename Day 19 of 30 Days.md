@@ -37,10 +37,10 @@ FROM ( SELECT employee_id, leave_type,
 	 
 > [!important]
 SQL query explanation
-> Inner Query (Subquery - Aliased as "ranked_leaves"):
+> 1. Inner Query (Subquery - Aliased as "ranked_leaves"):
 Grouping the LeaveRecord table by employee_id and leave_type.
 Used the RANK() window function to assign a rank to each leave type for each employee based on the count of occurrences in descending order(count(1) desc).
-> Outer Query:
+> 2. Outer Query:
 Selecting the employee_id and leave_type columns from the result of the inner query.
 The WHERE RNK=1 condition ensures that only the most common leave type(s) for each employee are selected.
 The final result is ordered by employee_id in ascending order.
