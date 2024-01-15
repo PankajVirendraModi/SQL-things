@@ -21,3 +21,8 @@ hello
 
 >[!information_source]
 >ljbdfjkdf
+
+⚠️ **This is a Warning**: <br> Description text here
+
+> :warning: **This is a Warning**: <br>
+Description text here
