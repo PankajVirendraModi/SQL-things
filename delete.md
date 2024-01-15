@@ -9,3 +9,6 @@ hello
 
 > [!hello]
 > jdfkjh
+
+>[!note]
+>ljbdfjkdf
