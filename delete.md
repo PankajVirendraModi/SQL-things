@@ -7,7 +7,7 @@ hello
 </sup> pankaj
 
 
-> [!hello]
+> [!note]
 > jdfkjh
 
 >[!memo]
