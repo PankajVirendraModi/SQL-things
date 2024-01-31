@@ -1,4 +1,4 @@
-## Yesterday, I had an interview where I was asked the following questions SQL:
+## Yesterday, I had an interview where I was asked the following question in SQL:
 > [!IMPORTANT]
 > Can you explain the various types of functions in SQL?
 
