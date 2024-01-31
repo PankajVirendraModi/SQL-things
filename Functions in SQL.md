@@ -1,5 +1,5 @@
 ## Tomorrow, I have an interview where I was asked the following questions:
->[!IMPORTANT]
+> [!IMPORTANT]
 1. Can you explain the various types of functions in SQL?
 2. What distinguishes the ETL (Extract, Transform, Load) process from Visualization tools?
 
