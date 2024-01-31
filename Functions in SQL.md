@@ -22,6 +22,7 @@ ABS, ROUND, AND, OR, NOT, =, <>, LIKE
 > Built-In Functions, also known as Intrinsic Functions or System Functions, are functions that come pre-defined with a programming language or a database management system (DBMS). These functions are part of the standard functionality provided by the system.
 
 ``` SQL
+-- user defined function
 CREATE OR REPLACE FUNCTION add_two_numbers(num1 INT, num2 INT)
 RETURNS INT
 AS $$
@@ -33,6 +34,7 @@ $$ LANGUAGE plpgsql;
 
 `MySQL`
 ``` MySQL
+-- user defined function
 DELIMITER //
 CREATE FUNCTION add_two_numbers(num1 INT, num2 INT)
 RETURNS INT
