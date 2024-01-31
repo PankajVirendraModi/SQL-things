@@ -1,7 +1,7 @@
 ## Tomorrow, I have an interview where I was asked the following questions:
 > [!IMPORTANT]
-1. Can you explain the various types of functions in SQL?
-2. What distinguishes the ETL (Extract, Transform, Load) process from Visualization tools?
+> 1. Can you explain the various types of functions in SQL?
+> 2. What distinguishes the ETL (Extract, Transform, Load) process from Visualization tools?
 
 So, there are two types of functions in SQl
 ### Built-in functions:
