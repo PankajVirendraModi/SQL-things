@@ -8,15 +8,12 @@ So, there are two types of functions in SQl
 `Definition`:
 > User-Defined Functions are functions that are created and defined by the user or the developer. These functions allow users to encapsulate a sequence of SQL statements into a reusable and modular unit.
 - Scalar functions:
-
 CONCAT, SUBSTRING, UPPER, LOWER, GETDATE, DATEDIFF
 - Aggregation functions:
-
 COUNT, MIN, MAX, SUM, AVG
-- Windows functions
-  
+- Windows functions:
 ROW_NUMER, RANK, DENSE_RANK, LEAD, LAG, LAST_VALUE, FIRST_VALUE, NTH_VALUE, CUME_DIST, PERCENT_RANK, CUME_DIST
-- Other pre-defined functions
+- Other pre-defined functions:
 ABS, ROUND, AND, OR, NOT, =, <>, LIKE
 
 
