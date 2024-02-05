@@ -9,7 +9,7 @@ When SQL executes a query, it follows a specific order of operations.
 
 This order is important for optimizing queries, especially large and complex ones. Here’s the typical order of operations in an SQL query:
 
-![SQL - order of execution](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/cbde2788-9778-42d4-8c7f-0f55f98d01b3)
+![image](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/c65a465a-b97e-4d26-b8d7-411f3595c046)
 
 FROM clause: This is the first clause that is processed. It defines the table that the query will use.
 
