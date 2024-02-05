@@ -9,6 +9,8 @@ When SQL executes a query, it follows a specific order of operations.
 
 This order is important for optimizing queries, especially large and complex ones. Here’s the typical order of operations in an SQL query:
 
+![SQL - order of execution](https://github.com/PankajVirendraModi/SQL-things/assets/75255261/cbde2788-9778-42d4-8c7f-0f55f98d01b3)
+
 FROM clause: This is the first clause that is processed. It defines the table that the query will use.
 
 ON clause: This clause is used in JOIN operations to specify the condition for the join.
